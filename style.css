@@ -5,6 +5,7 @@ body {
   padding-right: 180px;
   margin: 0;
   margin-top: 10px;
+  padding-bottom: 100px;
 }
 
 .header {
@@ -17,10 +18,14 @@ body {
   box-shadow: 0 0 5px grey;
 }
 
-.header img,
-p {
+.header img {
   margin-top: 20px;
   margin-left: 80px;
+}
+
+.header p {
+  margin-left: 80px;
+  color: grey;
 }
 
 .header img:hover {
@@ -32,13 +37,13 @@ p {
   align-items: center;
   width: 1000px;
   background-color: #373737;
-  height: 40px;
+  height: 45px;
 }
 
 .navbar a {
   display: flex;
   align-items: center;
-  height: 40px;
+  height: 45px;
   color: #fff;
   text-decoration: none;
   padding-left: 10px;
@@ -62,15 +67,11 @@ p {
   grid-template-columns: 1fr 2fr 1fr;
   margin-left: 80px;
   width: 1000px;
-  height: 100%;
+  height: auto;
   background-color: white;
   -moz-box-shadow: 0 0 5px grey;
   -webkit-box-shadow: 0 0 5px grey;
   box-shadow: 0 0 5px grey;
-}
-
-.main {
-  height: auto;
 }
 
 .article-left {
@@ -83,6 +84,10 @@ p {
 
 .article-left a {
   text-decoration: none;
+}
+
+.article-left a:hover {
+  text-decoration: underline;
 }
 
 .inside {
@@ -109,6 +114,7 @@ p {
   width: 160px;
   height: 600px;
   margin-top: 20px;
+  border: 1px solid grey;
 }
 
 .right-div {
@@ -167,7 +173,19 @@ p {
 .google-map {
   height: 350px;
   width: 450px;
-  
+}
+
+.contact {
+  width: 1000px;
+  height: 50px;
+  background-color: white;
+  margin-left: 80px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  padding-top: 50px;
+
+  text-decoration: underline;
 }
 
 .container {
@@ -179,19 +197,8 @@ p {
   justify-content: center;
   align-items: center;
   gap: 100px;
-}
-
-.copyright {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin-left: 80px;
-  background-color: white;
-  width: 1000px;
-  height: 100px;
-  background-color: black;
-  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .social-links {
@@ -202,6 +209,8 @@ p {
   align-items: center;
   margin-left: 80px;
   width: 1000px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .social-links ul {
@@ -214,4 +223,18 @@ p {
 
 .social-links a {
   text-decoration: none;
+}
+
+.copyright {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 80px;
+  background-color: white;
+  width: 1000px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  font-size: 14px;
 }
